@@ -1,7 +1,7 @@
 # Learning C
  
-##pt
+## pt
 Exercícios do meu desenvolvimento na programação C
 
-##en
+## en
 Exercises of my development in C programming
