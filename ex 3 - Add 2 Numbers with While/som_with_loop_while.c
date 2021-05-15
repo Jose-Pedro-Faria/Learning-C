@@ -5,7 +5,7 @@ int main ()
     int x, y;
     int exit = 1;
 
-    while (exit==1)
+    while (exit == 1)
     {
         printf("Da um valor a x: ");
         scanf("%i", &x);
