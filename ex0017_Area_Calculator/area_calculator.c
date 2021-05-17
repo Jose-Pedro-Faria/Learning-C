@@ -8,49 +8,53 @@ int main ()
 {
     int sair = 1;
 
-    do
+    while (sair == 1)
     {
-        int menu;
-        printf("-- Calculadora de Areas ---\n");
+        char menu;
+        printf("--- Calculadora de Areas ---\n");
         printf("Selecione o numero da forma que pretende:\n");
         printf("1- Triangulo\n");
         printf("2- Retangulo\n");
         printf("3- Circulo\n");
         printf("0- Fechar Programa\n");
         printf("Resposta: ");
-        scanf("%i", &menu);
+        scanf("%s", &menu);
 
-        if (menu == 1)
+        if (menu == '1')
         {
-        
             float triangulo ();
             float areatriangulo = triangulo ();
-            printf("A area é: %0.3fcm\n", areatriangulo);
+            printf("A area é: %0.3fcm2\n\n", areatriangulo);
+            sair = 1;
         }
-        else if (menu == 2)
+        else if (menu == '2')
         {
             float retangulo ();
             float arearetangulo = retangulo();
-            printf("A areia é: %0.3fcm\n", arearetangulo);
+            printf("A areia é: %0.3fcm2\n\n", arearetangulo);
+            sair = 1;
         }
-        else if (menu == 3)
+        else if (menu == '3')
         {
             float circulo ();
             float areacirculo = circulo();
-            printf("A area do circulo é: %0.3f\n", areacirculo);
+            printf("A area do circulo é: %0.3fcm2\n\n", areacirculo);
+            sair = 1;
         }
-        else if (menu == 0)
+        else if (menu == '0')
         {
+            printf("O Programa vai fechar...\n");
             sair = 0;
         }
         else 
         {
-            printf("O valor não é valido\n");
+            printf("O valor não é valido\n\n");
+            sair = 1;
         }
-    
-    } while (sair == 1);
+    } 
+    printf("saiu do while");
 }
-
+    
 float triangulo ()
 {
     float alt;
