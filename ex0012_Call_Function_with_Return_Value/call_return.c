@@ -5,7 +5,7 @@ int num (void);
 int main ()
 {
     int resultado = num();
-    printf("O numero inserido foi: %i", resultado);
+    printf("O numero inserido foi: %i\n", resultado);
 }
 
 int num (void)
