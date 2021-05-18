@@ -843,3 +843,881 @@
 - wcstoimax - convert wide-character string to integer
 - wcstoumax - convert wide-character string to integer
 
+## stdio.h
+- __fbufsize - interfaces to stdio FILE structure
+- __flbf - interfaces to stdio FILE structure
+- __fpending - interfaces to stdio FILE structure
+- __fpurge - purge a stream
+- __freadable - interfaces to stdio FILE structure
+- __freading - interfaces to stdio FILE structure
+- __fsetlocking - interfaces to stdio FILE structure
+- __fwritable - interfaces to stdio FILE structure
+- __fwriting - interfaces to stdio FILE structure
+- _flushlbf - interfaces to stdio FILE structure
+- addmntent - get filesystem descriptor file entry
+- asprintf - print to allocated string
+- clearerr - check and reset stream status
+- clearerr_unlocked - nonlocking stdio functions
+- ctermid - get controlling terminal name
+- dprintf - formatted output conversion
+- endmntent - get filesystem descriptor file entry
+- fclose - close a stream
+- fcloseall - close all open streams
+- fdopen - stream open functions
+- feof - check and reset stream status
+- feof_unlocked - nonlocking stdio functions
+- ferror - check and reset stream status
+- ferror_unlocked - nonlocking stdio functions
+- fflush - flush a stream
+- fflush_unlocked - nonlocking stdio functions
+- fgetc - input of characters and strings
+- fgetc_unlocked - nonlocking stdio functions
+- fgetgrent - get group file entry
+- fgetpos - reposition a stream
+- fgetpwent - get password file entry
+- fgets - input of characters and strings
+- fgets_unlocked - nonlocking stdio functions
+- fgetwc - read a wide character from a FILE stream
+- fgetwc_unlocked - nonlocking stdio functions
+- fgetws_unlocked - nonlocking stdio functions
+- fileno - check and reset stream status
+- fileno_unlocked - nonlocking stdio functions
+- flockfile - lock FILE for stdio
+- fmemopen - open memory as stream
+- fopen - stream open functions
+- fopencookie - opening a custom stream
+- fprintf - formatted output conversion
+- fpurge - purge a stream
+- fputc - output of characters and strings
+- fputc_unlocked - nonlocking stdio functions
+- fputs - output of characters and strings
+- fputs_unlocked - nonlocking stdio functions
+- fputwc - write a wide character to a FILE stream
+- fputwc_unlocked - nonlocking stdio functions
+- fputws_unlocked - nonlocking stdio functions
+- fread - binary stream input/output
+- fread_unlocked - nonlocking stdio functions
+- freopen - stream open functions
+- fscanf - input format conversion
+- fseek - reposition a stream
+- fseeko - seek to or report file position
+- fsetpos - reposition a stream
+- ftell - reposition a stream
+- ftello - seek to or report file position
+- ftrylockfile - lock FILE for stdio
+- funlockfile - lock FILE for stdio
+- fwprintf - formatted wide-character output conversion
+- fwrite - binary stream input/output
+- fwrite_unlocked - nonlocking stdio functions
+- getc - input of characters and strings
+- getc_unlocked - nonlocking stdio functions
+- getchar - input of characters and strings
+- getchar_unlocked - nonlocking stdio functions
+- getdelim - delimited string input
+- getline - delimited string input
+- getmntent - get filesystem descriptor file entry
+- getmntent_r - get filesystem descriptor file entry
+- gets - get a string from standard input (DEPRECATED)
+- getw - input and output of words (ints)
+- getwc - read a wide character from a FILE stream
+- getwc_unlocked - nonlocking stdio functions
+- getwchar_unlocked - nonlocking stdio functions
+- hasmntopt - get filesystem descriptor file entry
+- open_memstream - open a dynamic memory buffer stream
+- open_wmemstream - open a dynamic memory buffer stream
+- pclose - pipe stream to or from a process
+- perror - print a system error message
+- popen - pipe stream to or from a process
+- printf - formatted output conversion
+- putc - output of characters and strings
+- putc_unlocked - nonlocking stdio functions
+- putchar - output of characters and strings
+- putchar_unlocked - nonlocking stdio functions
+- putpwent - write a password file entry
+- puts - output of characters and strings
+- putw - input and output of words (ints)
+- putwc - write a wide character to a FILE stream
+- putwc_unlocked - nonlocking stdio functions
+- putwchar_unlocked - nonlocking stdio functions
+- remove - remove a file or directory
+- rename - change the name or location of a file
+- renameat - change the name or location of a file
+- renameat2 - change the name or location of a file
+- rewind - reposition a stream
+- scanf - input format conversion
+- setbuf - stream buffering operations
+- setbuffer - stream buffering operations
+- setlinebuf - stream buffering operations
+- setmntent - get filesystem descriptor file entry
+- setvbuf - stream buffering operations
+- snprintf - formatted output conversion
+- sprintf - formatted output conversion
+- sscanf - input format conversion
+- stderr - standard I/O streams
+- stdin - standard I/O streams
+- stdio - standard input/output library functions
+- stdio_ext - interfaces to stdio FILE structure
+- stdout - standard I/O streams
+- swprintf - formatted wide-character output conversion
+- sys_errlist - print a system error message
+- sys_nerr - print a system error message
+- tempnam - create a name for a temporary file
+- tmpfile - create a temporary file
+- tmpnam - create a name for a temporary file
+- tmpnam_r - create a name for a temporary file
+- ungetc - input of characters and strings
+- unlocked_stdio - nonlocking stdio functions
+- vasprintf - print to allocated string
+- vdprintf - formatted output conversion
+- vfprintf - formatted output conversion
+- vfscanf - input format conversion
+- vfwprintf - formatted wide-character output conversion
+- vprintf - formatted output conversion
+- vscanf - input format conversion
+- vsnprintf - formatted output conversion
+- vsprintf - formatted output conversion
+- vsscanf - input format conversion
+- vswprintf - formatted wide-character output conversion
+- vwprintf - formatted wide-character output conversion
+- wprintf - formatted wide-character output conversion
+
+## stdlib.h
+- a64l - convert between long and base-64
+- abort - cause abnormal process termination
+- abs - compute the absolute value of an integer
+- aligned_alloc - allocate aligned memory
+- atexit - register a function to be called at normal process termination
+- atof - convert a string to a double
+- atoi - convert a string to an integer
+- atol - convert a string to an integer
+- atoll - convert a string to an integer
+- atoq - convert a string to an integer
+- bsearch - binary search of a sorted array
+- calloc - allocate and free dynamic memory
+- canonicalize_file_name - return the canonicalized absolute pathname
+- cfree - free allocated memory
+- clearenv - clear the environment
+- div - compute quotient and remainder of an integer division
+- drand48 - generate uniformly distributed pseudo-random numbers
+- drand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- ecvt - convert a floating-point number to a string
+- ecvt_r - convert a floating-point number to a string
+- erand48 - generate uniformly distributed pseudo-random numbers
+- erand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- exit - cause normal process termination
+- fcvt - convert a floating-point number to a string
+- fcvt_r - convert a floating-point number to a string
+- free - allocate and free dynamic memory
+- gcvt - convert a floating-point number to a string
+- getenv - get an environment variable
+- getloadavg - get system load averages
+- getpt - open the pseudoterminal master (PTM)
+- getsubopt - parse suboption arguments from a string
+- grantpt - grant access to the slave pseudoterminal
+- imaxabs - compute the absolute value of an integer
+- imaxdiv - compute quotient and remainder of an integer division
+- initstate - random number generator
+- initstate_r - reentrant random number generator
+- jrand48 - generate uniformly distributed pseudo-random numbers
+- jrand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- l64a - convert between long and base-64
+- labs - compute the absolute value of an integer
+- lcong48 - generate uniformly distributed pseudo-random numbers
+- lcong48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- ldiv - compute quotient and remainder of an integer division
+- llabs - compute the absolute value of an integer
+- lldiv - compute quotient and remainder of an integer division
+- lrand48 - generate uniformly distributed pseudo-random numbers
+- lrand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- malloc - allocate and free dynamic memory
+- MB_CUR_MAX - maximum length of a multibyte character in the current locale
+- mblen - determine number of bytes in next multibyte character
+- mbstowcs - convert a multibyte string to a wide-character string
+- mbtowc - convert a multibyte sequence to a wide character
+- memalign - allocate aligned memory
+- mkdtemp - create a unique temporary directory
+- mkostemp - create a unique temporary file
+- mkostemps - create a unique temporary file
+- mkstemp - create a unique temporary file
+- mkstemps - create a unique temporary file
+- mktemp - make a unique temporary filename
+- mrand48 - generate uniformly distributed pseudo-random numbers
+- mrand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- nrand48 - generate uniformly distributed pseudo-random numbers
+- nrand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- on_exit - register a function to be called at normal process termination
+- posix_memalign - allocate aligned memory
+- posix_openpt - open a pseudoterminal device
+- ptsname - get the name of the slave pseudoterminal
+- ptsname_r - get the name of the slave pseudoterminal
+- putenv - change or add an environment variable
+- pvalloc - allocate aligned memory
+- qecvt - convert a floating-point number to a string
+- qecvt_r - convert a floating-point number to a string
+- qfcvt - convert a floating-point number to a string
+- qfcvt_r - convert a floating-point number to a string
+- qgcvt - convert a floating-point number to a string
+- qsort - sort an array
+- qsort_r - sort an array
+- rand - pseudo-random number generator
+- rand_r - pseudo-random number generator
+- random - random number generator
+- random_r - reentrant random number generator
+- realloc - allocate and free dynamic memory
+- rpmatch - determine if the answer to a question is affirmative or negative
+- secure_getenv - get an environment variable
+- seed48 - generate uniformly distributed pseudo-random numbers
+- seed48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- setenv - change or add an environment variable
+- setstate - random number generator
+- setstate_r - reentrant random number generator
+- srand - pseudo-random number generator
+- srand48 - generate uniformly distributed pseudo-random numbers
+- srand48_r - generate uniformly distributed pseudo-random numbers reentrantly
+- srandom - random number generator
+- srandom_r - reentrant random number generator
+- strfromd - convert a floating-point value into a string
+- strfromf - convert a floating-point value into a string
+- strfroml - convert a floating-point value into a string
+- strtod - convert ASCII string to floating-point number
+- strtof - convert ASCII string to floating-point number
+- strtol - convert a string to a long integer
+- strtold - convert ASCII string to floating-point number
+- strtoll - convert a string to a long integer
+- strtoq - convert a string to a long integer
+- strtoul - convert a string to an unsigned long integer
+- strtoull - convert a string to an unsigned long integer
+- strtouq - convert a string to an unsigned long integer
+- system - execute a shell command
+- unlockpt - unlock a pseudoterminal master/slave pair
+- unsetenv - change or add an environment variable
+- valloc - allocate aligned memory
+- wcstombs - convert a wide-character string to a multibyte string
+- wctomb - convert a wide character to a multibyte sequence
+
+## string.h
+- bstring - byte string operations
+- memccpy - copy memory area
+- memchr - scan memory for a character
+- memcmp - compare memory areas
+- memcpy - copy memory area
+- memfrob - frobnicate (encrypt) a memory area
+- memmem - locate a substring
+- memmove - copy memory area
+- mempcpy - copy memory area
+- memrchr - scan memory for a character
+- memset - fill memory with a constant byte
+- rawmemchr - scan memory for a character
+- stpcpy - copy a string returning a pointer to its end
+- stpncpy - copy a fixed-size string, returning a pointer to its end
+- strcasestr - locate a substring
+- strcat - concatenate two strings
+- strchr - locate character in string
+- strchrnul - locate character in string
+- strcmp - compare two strings
+- strcoll - compare two strings using the current locale
+- strcpy - copy a string
+- strcspn - get length of a prefix substring
+- strdup - duplicate a string
+- strdupa - duplicate a string
+- strerror - return string describing error number
+- strerror_l - return string describing error number
+- strerror_r - return string describing error number
+- strfry - randomize a string
+- strlen - calculate the length of a string
+- strncat - concatenate two strings
+- strncmp - compare two strings
+- strncpy - copy a string
+- strndup - duplicate a string
+- strndupa - duplicate a string
+- strnlen - determine the length of a fixed-size string
+- strpbrk - search a string for any of a set of bytes
+- strrchr - locate character in string
+- strsep - extract token from string
+- strsignal - return string describing signal
+- strspn - get length of a prefix substring
+- strstr - locate a substring
+- strtok - extract tokens from strings
+- strtok_r - extract tokens from strings
+- strverscmp - compare two version strings
+- strxfrm - string transformation
+-wmempcpy - copy memory area
+
+## strings.h
+- bcmp - compare byte sequences
+- bcopy - copy byte sequence
+- bzero - zero a byte string
+- explicit_bzero - zero a byte string
+- ffs - find first bit set in a word
+- ffsl - find first bit set in a word
+- ffsll - find first bit set in a word
+- index - locate character in string
+- rindex - locate character in string
+- strcasecmp - compare two strings ignoring case
+- string - string operations
+- strncasecmp - compare two strings ignoring case
+- 
+## sys/ipc.h
+- shmctl - System V shared memory control
+- shmget - allocates a System V shared memory segment
+
+## sys/mman.h
+- madvise - give advice about use of memory
+- mlock - lock and unlock memory
+- mlock2 - lock and unlock memory
+- mlockall - lock and unlock memory
+- mmap - map or unmap files or devices into memory
+- mmap2 - map files or devices into memory
+- mmap64 - map or unmap files or devices into memory
+- mprotect - set protection on a region of memory
+- mremap - remap a virtual memory address
+- msync - synchronize a file with a memory map
+- munlock - lock and unlock memory
+- munlockall - lock and unlock memory
+- munmap - map or unmap files or devices into memory
+- pkey_alloc - allocate or free a protection key
+- pkey_free - allocate or free a protection key
+- pkey_mprotect - set protection on a region of memory
+- posix_madvise - give advice about patterns of memory usage
+- remap_file_pages - create a nonlinear file mapping
+- shm_open - create/open or unlink POSIX shared memory objects
+- shm_unlink - create/open or unlink POSIX shared memory objects
+
+## sys/msg.h
+- ipc - System V interprocess communication mechanisms
+- svipc - System V interprocess communication mechanisms
+
+## sys/select.h
+- _newselect - synchronous I/O multiplexing
+- FD_CLR - synchronous I/O multiplexing
+- FD_ISSET - synchronous I/O multiplexing
+- FD_SET - synchronous I/O multiplexing
+- FD_ZERO - synchronous I/O multiplexing
+- pselect - synchronous I/O multiplexing
+- pselect6 - synchronous I/O multiplexing
+- select - synchronous I/O multiplexing
+- select_tut - synchronous I/O multiplexing
+## sys/socket.h
+- accept - accept a connection on a socket
+- accept4 - accept a connection on a socket
+- bind - bind a name to a socket
+- cmsg - access ancillary data
+- CMSG_ALIGN - access ancillary data
+- CMSG_DATA - access ancillary data
+- CMSG_FIRSTHDR - access ancillary data
+- CMSG_LEN - access ancillary data
+- CMSG_NXTHDR - access ancillary data
+- CMSG_SPACE - access ancillary data
+- connect - initiate a connection on a socket
+- ddp - Linux AppleTalk protocol implementation
+- getnameinfo - address-to-name translation in protocol-independent manner
+- getpeername - get name of connected peer socket
+- getsockname - get socket name
+- getsockopt - get and set options on sockets
+- inet - Internet address manipulation routines
+- inet_addr - Internet address manipulation routines
+- inet_aton - Internet address manipulation routines
+- inet_lnaof - Internet address manipulation routines
+- inet_makeaddr - Internet address manipulation routines
+- inet_netof - Internet address manipulation routines
+- inet_network - Internet address manipulation routines
+- inet_ntoa - Internet address manipulation routines
+- ip - Linux IPv4 protocol implementation
+- ipv6 - Linux IPv6 protocol implementation
+- listen - listen for connections on a socket
+- packet - packet interface on device level
+- raw - Linux IPv4 raw sockets
+- setsockopt - get and set options on sockets
+- shutdown - shut down part of a full-duplex connection
+- sock_diag - obtaining information about sockets
+- sockatmark - determine whether socket is at out-of-band mark
+- socket - create an endpoint for communication
+- socket - Linux socket interface
+- socketpair - create a pair of connected sockets
+- tcp - TCP protocol
+- udp - User Datagram Protocol for IPv4
+- udplite - Lightweight User Datagram Protocol
+- unix - sockets for local interprocess communication
+- vsock - Linux VSOCK address family
+- x25 - ITU-T X.25 / ISO-8208 protocol interface.
+
+## sys/stat.h
+- chmod - change permissions of a file
+- fchmod - change permissions of a file
+- fchmodat - change permissions of a file
+- isfdtype - test file type of a file descriptor
+- mkdir - create a directory
+- mkdirat - create a directory
+
+## sys/statvfs.h
+- fstatvfs - get filesystem statistics
+- fstatvfs - get filesystem statistics
+- statvfs - get filesystem statistics
+- statvfs - get filesystem statistics
+
+## sys/time.h
+- adjtime - correct the time to synchronize the system clock
+- futimes - change file timestamps
+- getitimer - get or set value of an interval timer
+- getpriority - get/set program scheduling priority
+- getrlimit - get/set resource limits
+- getrusage - get resource usage
+- gettimeofday - get / set time
+- lutimes - change file timestamps
+- prlimit - get/set resource limits
+- prlimit64 - get/set resource limits
+- setitimer - get or set value of an interval timer
+- setpriority - get/set program scheduling priority
+- setrlimit - get/set resource limits
+- settimeofday - get / set time
+- timeradd - timeval operations
+- timerclear - timeval operations
+- timercmp - timeval operations
+- timerisset - timeval operations
+- timersub - timeval operations
+- ugetrlimit - get/set resource limits
+- vlimit - get/set resource limits
+- vtimes - get resource usage
+
+## sys/times.h
+- times - get process times
+
+## sys/types.h
+- _llseek - reposition read/write file offset
+- add_key - add a key to the kernel's key management facility
+- bindresvport - bind a socket to a privileged IP port
+- closedir - close a directory
+- creat - open and possibly create a file
+- db - database access methods
+- dbopen - database access methods
+- dirfd - get directory stream file descriptor
+- endgrent - get group file entry
+- endpwent - get password file entry
+- fdopendir - open a directory
+- fork - create a child process
+- freeaddrinfo - network address and service translation
+- freehostent - get network hostnames and addresses
+- freeifaddrs - get interface addresses
+- fstat - get file status
+- fstat64 - get file status
+- fstatat - get file status
+- fstatat64 - get file status
+- ftok - convert a pathname and a project identifier to a System V IPC key
+- fts - traverse a file hierarchy
+- fts_children - traverse a file hierarchy
+- fts_close - traverse a file hierarchy
+- fts_open - traverse a file hierarchy
+- fts_read - traverse a file hierarchy
+- fts_set - traverse a file hierarchy
+- gai_strerror - network address and service translation
+- getaddrinfo - network address and service translation
+- getgrent - get group file entry
+- getgrgid - get group file entry
+- getgrgid_r - get group file entry
+- getgrnam - get group file entry
+- getgrnam_r - get group file entry
+- getgroups - get/set list of supplementary group IDs
+- getgroups32 - get/set list of supplementary group IDs
+- getifaddrs - get interface addresses
+- getipnodebyaddr - get network hostnames and addresses
+- getipnodebyname - get network hostnames and addresses
+- getpgid - set/get process group
+- getpgrp - set/get process group
+- getpid - get process identification
+- getppid - get process identification
+- getpw - reconstruct password line entry
+- getpwent - get password file entry
+- getpwnam - get password file entry
+- getpwnam_r - get password file entry
+- getpwuid - get password file entry
+- getpwuid_r - get password file entry
+- getsid - get session ID
+- gettid - get thread identification
+- getumask - get file creation mask
+- initgroups - initialize the supplementary group access list
+- keyctl - manipulate the kernel's key management facility
+- kill - send signal to a process
+- llseek - reposition read/write file offset
+- lseek - reposition read/write file offset
+- lseek64 - reposition 64-bit read/write file offset
+- lstat - get file status
+- lstat64 - get file status
+- mkfifo - make a FIFO special file (a named pipe)
+- mkfifoat - make a FIFO special file (a named pipe)
+- mknod - create a special or ordinary file
+- mknodat - create a special or ordinary file
+- modify_ldt - get or set a per-process LDT entry
+- mq_getsetattr - get/set message queue attributes
+- msgctl - System V message control operations
+- msgget - get a System V message queue identifier
+- msgop - System V message queue operations
+- msgrcv - System V message queue operations
+- msgsnd - System V message queue operations
+- name_to_handle_at - obtain handle for a pathname and open file via a handle
+- newfstatat - get file status
+- oldfstat - get file status
+- oldlstat - get file status
+- oldstat - get file status
+- open - open and possibly create a file
+- open_by_handle_at - obtain handle for a pathname and open file via a handle
+- openat - open and possibly create a file
+- opendir - open a directory
+- re_comp - BSD regex functions
+- re_exec - BSD regex functions
+- recv - receive a message from a socket
+- recvfrom - receive a message from a socket
+- recvmsg - receive a message from a socket
+- regcomp - POSIX regex functions
+- regerror - POSIX regex functions
+- regex - POSIX regex functions
+- regexec - POSIX regex functions
+- regfree - POSIX regex functions
+- request_key - request a key from the kernel's key management facility
+- rewinddir - reset directory stream
+- semctl - System V semaphore control operations
+- semget - get a System V semaphore set identifier
+- semop - System V semaphore operations
+- semtimedop - System V semaphore operations
+- send - send a message on a socket
+- sendmsg - send a message on a socket
+- sendto - send a message on a socket
+- setegid - set effective user or group ID
+- seteuid - set effective user or group ID
+- setgid - set group identity
+- setgid32 - set group identity
+- setgrent - get group file entry
+- setgroups - get/set list of supplementary group IDs
+- setgroups32 - get/set list of supplementary group IDs
+- setpgid - set/get process group
+- setpgrp - set/get process group
+- setpwent - get password file entry
+- setregid - set real and/or effective user or group ID
+- setregid32 - set real and/or effective user or group ID
+- setreuid - set real and/or effective user or group ID
+- setreuid32 - set real and/or effective user or group ID
+- setsid - creates a session and sets the process group ID
+- setuid - set user identity
+- setuid32 - set user identity
+- shmat - System V shared memory operations
+- shmdt - System V shared memory operations
+- shmop - System V shared memory operations
+- spu_create - create a new spu context
+- stat - get file status
+- stat64 - get file status
+- statx - get file status (extended)
+- umask - set file mode creation mask
+- userfaultfd - create a file descriptor for handling page faults in user space
+- ustat - get filesystem statistics
+- utime - change file last access and modification times
+- utimes - change file last access and modification times
+- vfork - create a child process and block parent
+- wait - wait for process to change state
+- wait3 - wait for process to change state, BSD style
+- wait4 - wait for process to change state, BSD style
+- waitid - wait for process to change state
+- waitpid - wait for process to change state
+
+## sys/uio.h
+- preadv - read or write data into multiple buffers
+- preadv2 - read or write data into multiple buffers
+- process_vm_readv - transfer data between process address spaces
+- process_vm_writev - transfer data between process address spaces
+- pwritev - read or write data into multiple buffers
+- pwritev2 - read or write data into multiple buffers
+- readv - read or write data into multiple buffers
+- writev - read or write data into multiple buffers
+
+## sys/utsname.h
+- oldolduname - get name and information about current kernel
+- olduname - get name and information about current kernel
+- uname - get name and information about current kernel
+
+## syslog.h
+- closelog - send messages to the system logger
+- openlog - send messages to the system logger
+- setlogmask - set log priority mask
+- syslog - send messages to the system logger
+- vsyslog - send messages to the system logger
+
+## termios.h
+- cfgetispeed - get and set terminal attributes, line control, get and set baud rate
+- cfgetospeed - get and set terminal attributes, line control, get and set baud rate
+- cfmakeraw - get and set terminal attributes, line control, get and set baud rate
+- cfsetispeed - get and set terminal attributes, line control, get and set baud rate
+- cfsetospeed - get and set terminal attributes, line control, get and set baud rate
+- cfsetspeed - get and set terminal attributes, line control, get and set baud rate
+- ioctl_tty - ioctls for terminals and serial lines
+- tcdrain - get and set terminal attributes, line control, get and set baud rate
+- tcflow - get and set terminal attributes, line control, get and set baud rate
+- tcflush - get and set terminal attributes, line control, get and set baud rate
+- tcgetattr - get and set terminal attributes, line control, get and set baud rate
+- tcgetsid - get session ID
+- tcsendbreak - get and set terminal attributes, line control, get and set baud rate
+- tcsetattr - get and set terminal attributes, line control, get and set baud rate
+- termios - get and set terminal attributes, line control, get and set baud rate
+- tty_ioctl - ioctls for terminals and serial lines
+
+## time.h
+- asctime - transform date and time to broken-down time or ASCII
+- asctime_r - transform date and time to broken-down time or ASCII
+- clock - determine processor time
+- clock_getcpuclockid - obtain ID of a process CPU-time clock
+- clock_getres - clock and time functions
+- clock_getres - clock and time functions
+- clock_gettime - clock and time functions
+- clock_gettime - clock and time functions
+- clock_nanosleep - high-resolution sleep with specifiable clock
+- clock_settime - clock and time functions
+- clock_settime - clock and time functions
+- ctime - transform date and time to broken-down time or ASCII
+- ctime_r - transform date and time to broken-down time or ASCII
+- daylight - initialize time conversion information
+- difftime - calculate time difference
+- dysize - get number of days for a given year
+- getdate - convert a date-plus-time string to broken-down time
+- getdate_err - convert a date-plus-time string to broken-down time
+- getdate_r - convert a date-plus-time string to broken-down time
+- gmtime - transform date and time to broken-down time or ASCII
+- gmtime_r - transform date and time to broken-down time or ASCII
+- localtime - transform date and time to broken-down time or ASCII
+- localtime_r - transform date and time to broken-down time or ASCII
+- mktime - transform date and time to broken-down time or ASCII
+- nanosleep - high-resolution sleep
+- stime - set time
+- strftime - format date and time
+- strptime - convert a string representation of time to a time tm structure
+- time - get time in seconds
+- timegm - inverses of gmtime and localtime
+- timelocal - inverses of gmtime and localtime
+- timer_delete - delete a POSIX per-process timer
+- timer_getoverrun - get overrun count for a POSIX per-process timer
+- timer_gettime - arm/disarm and fetch state of POSIX per-process timer
+- timer_settime - arm/disarm and fetch state of POSIX per-process timer
+- timezone - initialize time conversion information
+- tzname - initialize time conversion information
+- tzset - initialize time conversion information
+
+## ulimit.h
+- ulimit - get and set user limits
+
+## unistd.h
+- _Exit - terminate the calling process
+- _exit - terminate the calling process
+- _sysctl - read/write system parameters
+- access - check user's permissions for a file
+- acct - switch process accounting on or off
+- alarm - set an alarm clock for delivery of a signal
+- brk - change data segment size
+- chdir - change working directory
+- chown - change ownership of a file
+- chown32 - change ownership of a file
+- chroot - change root directory
+- close - close a file descriptor
+- confstr - get configuration dependent string variables
+- copy_file_range - Copy a range of data from one file to another
+- crypt - password and data encryption
+- crypt_r - password and data encryption
+- cuserid - get username
+- daemon - run in the background
+- dup - duplicate a file descriptor
+- dup2 - duplicate a file descriptor
+- dup3 - duplicate a file descriptor
+- eaccess - check effective user's permissions for a file
+- encrypt - encrypt 64-bit messages
+- encrypt_r - encrypt 64-bit messages
+- endusershell - get permitted user shells
+- euidaccess - check effective user's permissions for a file
+- exec - execute a file
+- execl - execute a file
+- execle - execute a file
+- execlp - execute a file
+- execv - execute a file
+- execve - execute program
+- execveat - execute program relative to a directory file descriptor
+- execvp - execute a file
+- execvpe - execute a file
+- exit - terminate the calling process
+- faccessat - check user's permissions for a file
+- fchdir - change working directory
+- fchown - change ownership of a file
+- fchown32 - change ownership of a file
+- fchownat - change ownership of a file
+- fcntl - manipulate file descriptor
+- fcntl64 - manipulate file descriptor
+- fdatasync - synchronize a file's in-core state with storage device
+- fexecve - execute program specified via file descriptor
+- fpathconf - get configuration values for files
+- fsync - synchronize a file's in-core state with storage device
+- ftruncate - truncate a file to a specified length
+- ftruncate64 - truncate a file to a specified length
+- get_current_dir_name - get current working directory
+- getcwd - get current working directory
+- getcwd - get current working directory
+- getdomainname - get/set NIS domain name
+- getdtablesize - get file descriptor table size
+- getdtablesize - get file descriptor table size
+- getegid - get group identity
+- getegid32 - get group identity
+- getentropy - fill a buffer with random bytes
+- geteuid - get user identity
+- geteuid32 - get user identity
+- getgid - get group identity
+- getgid32 - get group identity
+- gethostid - get or set the unique identifier of the current host
+- gethostid - get or set the unique identifier of the current host
+- gethostname - get/set hostname
+- getlogin - get username
+- getlogin_r - get username
+- getopt - Parse command-line options
+- getopt_long - Parse command-line options
+- getopt_long_only - Parse command-line options
+- getpagesize - get memory page size
+- getpass - get a password
+- getresgid - get real, effective and saved user/group IDs
+- getresgid32 - get real, effective and saved user/group IDs
+- getresuid - get real, effective and saved user/group IDs
+- getresuid32 - get real, effective and saved user/group IDs
+- getuid - get user identity
+- getuid32 - get user identity
+- getusershell - get permitted user shells
+- getwd - get current working directory
+- group_member - test whether a process is in a group
+- idle - make process 0 idle
+- isatty - test whether a file descriptor refers to a terminal
+- lchown - change ownership of a file
+- lchown32 - change ownership of a file
+- link - make a new name for a file
+- linkat - make a new name for a file
+- lockf - apply, test or remove a POSIX lock on an open file
+- mincore - determine whether pages are resident in memory
+- nice - change process priority
+- optarg - Parse command-line options
+- opterr - Parse command-line options
+- optind - Parse command-line options
+- optopt - Parse command-line options
+- pathconf - get configuration values for files
+- pause - wait for signal
+- pipe - create pipe
+- pipe2 - create pipe
+- pread - read from or write to a file descriptor at a given offset
+- pread64 - read from or write to a file descriptor at a given offset
+- profil - execution time profile
+- pwrite - read from or write to a file descriptor at a given offset
+- pwrite64 - read from or write to a file descriptor at a given offset
+- read - read from a file descriptor
+- readlink - read value of a symbolic link
+- readlinkat - read value of a symbolic link
+- reboot - reboot or enable/disable Ctrl-Alt-Del
+- rmdir - delete a directory
+- sbrk - change data segment size
+- setdomainname - get/set NIS domain name
+- sethostid - get or set the unique identifier of the current host
+- sethostid - get or set the unique identifier of the current host
+- sethostname - get/set hostname
+- setkey - encrypt 64-bit messages
+- setkey_r - encrypt 64-bit messages
+- setresgid - set real, effective and saved user or group ID
+- setresgid32 - set real, effective and saved user or group ID
+- setresuid - set real, effective and saved user or group ID
+- setresuid32 - set real, effective and saved user or group ID
+- setup - setup devices and filesystems, mount root filesystem
+- setusershell - get permitted user shells
+- sleep - sleep for a specified number of seconds
+- swab - swap adjacent bytes
+- swapoff - start/stop swapping to file/device
+- swapon - start/stop swapping to file/device
+- symlink - make a new name for a file
+- symlinkat - make a new name for a file
+- sync - commit filesystem caches to disk
+- syncfs - commit filesystem caches to disk
+- syscall - indirect system call
+- sysconf - get configuration information at run time
+- sysctl - read/write system parameters
+- tcgetpgrp - get and set terminal foreground process group
+- tcsetpgrp - get and set terminal foreground process group
+- truncate - truncate a file to a specified length
+- truncate64 - truncate a file to a specified length
+- ttyname - return name of a terminal
+- ttyname_r - return name of a terminal
+- ualarm - schedule signal after given number of microseconds
+- unlink - delete a name and possibly the file it refers to
+- unlinkat - delete a name and possibly the file it refers to
+- uselib - load shared library
+- usleep - suspend execution for microsecond intervals
+- vhangup - virtually hangup the current terminal
+- write - write to a file descriptor
+
+## utmpx.h
+- getutmp - copy utmp structure to utmpx, and vice versa
+- getutmpx - copy utmp structure to utmpx, and vice versa
+
+## wchar.h
+- btowc - convert single byte to wide character
+- fgetws - read a wide-character string from a FILE stream
+- fputws - write a wide-character string to a FILE stream
+- fwide - set and determine the orientation of a FILE stream
+- getwchar - read a wide character from standard input
+- mbrlen - determine number of bytes in next multibyte character
+- mbrtowc - convert a multibyte sequence to a wide character
+- mbsinit - test for initial shift state
+- mbsnrtowcs - convert a multibyte string to a wide-character string
+- mbsrtowcs - convert a multibyte string to a wide-character string
+- putwchar - write a wide character to standard output
+- ungetwc - push back a wide character onto a FILE stream
+- wcpcpy - copy a wide-character string, returning a pointer to its end
+- wcpncpy - copy a fixed-size string of wide characters, returning a pointer to its end
+- wcrtomb - convert a wide character to a multibyte sequence
+- wcscasecmp - compare two wide-character strings, ignoring case
+- wcscat - concatenate two wide-character strings
+- wcschr - search a wide character in a wide-character string
+- wcscmp - compare two wide-character strings
+- wcscpy - copy a wide-character string
+- wcscspn - search a wide-character string for any of a set of wide characters
+- wcsdup - duplicate a wide-character string
+- wcslen - determine the length of a wide-character string
+- wcsncasecmp - compare two fixed-size wide-character strings, ignoring case
+- wcsncat - concatenate two wide-character strings
+- wcsncmp - compare two fixed-size wide-character strings
+- wcsncpy - copy a fixed-size string of wide characters
+- wcsnlen - determine the length of a fixed-size wide-character string
+- wcsnrtombs - convert a wide-character string to a multibyte string
+- wcspbrk - search a wide-character string for any of a set of wide characters
+- wcsrchr - search a wide character in a wide-character string
+- wcsrtombs - convert a wide-character string to a multibyte string
+- wcsspn - advance in a wide-character string, skipping any of a set of wide characters
+- wcsstr - locate a substring in a wide-character string
+- wcstok - split wide-character string into tokens
+- wcswidth - determine columns needed for a fixed-size wide-character string
+- wctob - try to represent a wide character as a single byte
+- wcwidth - determine columns needed for a wide character
+- wmemchr - search a wide character in a wide-character array
+- wmemcmp - compare two arrays of wide-characters
+- wmemcpy - copy an array of wide-characters
+- wmemmove - copy an array of wide-characters
+- wmemset - fill an array of wide-characters with a constant wide character
+
+## wctype.h
+- iswalnum - test for alphanumeric wide character
+- iswalpha - test for alphabetic wide character
+- iswblank - test for whitespace wide character
+- iswcntrl - test for control wide character
+- iswctype - wide-character classification
+- iswdigit - test for decimal digit wide character
+- iswgraph - test for graphic wide character
+- iswlower - test for lowercase wide character
+- iswprint - test for printing wide character
+- iswpunct - test for punctuation or symbolic wide character
+- iswspace - test for whitespace wide character
+- iswupper - test for uppercase wide character
+- iswxdigit - test for hexadecimal digit wide character
+- towctrans - wide-character transliteration
+- towlower - convert a wide character to lowercase
+- towlower_l - convert a wide character to lowercase
+- towupper - convert a wide character to uppercase
+- towupper_l - convert a wide character to uppercase
+- wctrans - wide-character translation mapping
+- wctype - wide-character classification
+
+## wordexp.h
+- wordexp - perform word expansion like a posix-shell
+- wordfree - perform word expansion like a posix-shell
