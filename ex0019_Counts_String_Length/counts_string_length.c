@@ -3,7 +3,7 @@
 
 int main ()
 {
-    char name[]="";
+    char name[50]="";
     printf("--- Contador de carateres ---\n");
     printf("Adicione o que deseja contar: ");
     scanf("%s", name);
@@ -16,9 +16,10 @@ int main ()
     int len = strlen(name);
     for (int i = 0; i < len; i++)
     {
-        printf("Posicao %i: %c\n", i, name[i]);
+        printf("Posicao %i: %c\n", i+1, name[i]);
+        
     }
-    printf("\n");
-    printf("%i", len);
+    
+    printf("Tem %i letras\n", len);
 
 }
