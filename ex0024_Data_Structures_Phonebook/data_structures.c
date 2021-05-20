@@ -4,7 +4,7 @@
 struct pessoa
 {
     char nome [50];
-    char num [8];
+    char num [10];
 };
 
 int main ()
@@ -14,8 +14,6 @@ int main ()
     scanf("%i", &registos);
 
     struct pessoa dados[registos];
-
-    
 
     for (int i = 0; i < registos; i++)
     {
