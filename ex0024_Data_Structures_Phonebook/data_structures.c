@@ -20,7 +20,7 @@ int main ()
         printf("%iº Pessoa\n", i+1);
         printf("Insira o nome: ");
         scanf("%s", dados[i].nome);
-        printf("e o numero de telemovel: ");
+        printf("e o numero de telemovel (9 digitos): ");
         scanf("%s", dados[i].num);
         printf("\n");
         printf("Resumo dos Dados Inseridos: \n");
