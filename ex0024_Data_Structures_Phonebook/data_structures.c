@@ -45,7 +45,7 @@ int main ()
                 
             }
         }
-        printf("O registo nao existe\n\n");
+        
         printf("----------------------------------\n\n");
     
     }
