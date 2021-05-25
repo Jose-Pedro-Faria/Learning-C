@@ -9,6 +9,7 @@ struct pessoa
 
 int main ()
 {
+
     int registos;
     printf("Quantos registos vai fazer? ");
     scanf("%i", &registos);
@@ -46,7 +47,7 @@ int main ()
         }
         printf("O registo nao existe\n\n");
         printf("----------------------------------\n\n");
-
+    
     }
     
         
