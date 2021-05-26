@@ -49,6 +49,6 @@ int main ()
         printf("----------------------------------\n\n");
     
     }
-    
-        
+    //Programa imcompleto, falta aviso para quando o nome da pesquisa não existe, mas o conceito de struct (que é o objetivo deste exercício) está cá
+    //O programa também só deixa inserir dados uma vez    
 }
