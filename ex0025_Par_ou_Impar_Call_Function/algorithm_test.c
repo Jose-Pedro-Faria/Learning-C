@@ -17,10 +17,33 @@ int main()
         {
         case 0:
             printf("O numero e PAR\n");
+            printf("STOP");
+            delay(2000);
+            printf("Recua");
+            delay(2000);
+            printf("Roda Direita");
+            delay(4000);
+            printf("Avança");
+            delay(3000);
+            printf("Volta a Rodar Direita");
+            delay(4000);
+            printf("Continua Limpeza em frente");
+
             break;
 
         case 1:
             printf("O numero e IMPAR\n");
+            printf("STOP");
+            delay(2000);
+            printf("Recua");
+            delay(2000);
+            printf("Roda Esquerda");
+            delay(4000);
+            printf("Avança");
+            delay(3000);
+            printf("Volta a Rodar Esquerda");
+            delay(4000);
+            printf("Continua Limpeza em frente");
             break;
 
         default:
